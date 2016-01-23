@@ -84,7 +84,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="160" height="30"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Technical" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ds-x4-ikn">
-                                                        <rect key="frame" x="0.0" y="0.0" width="88" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="65" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="30" id="HF3-pS-UKx"/>
                                                             <constraint firstAttribute="width" constant="88" id="TDJ-w0-JSx"/>
@@ -94,7 +94,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Toolkit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqE-fx-RRr">
-                                                        <rect key="frame" x="88" y="0.0" width="72" height="30"/>
+                                                        <rect key="frame" x="65" y="0.0" width="95" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="95" id="I8X-Wj-2no"/>
                                                             <constraint firstAttribute="height" constant="30" id="pZO-se-etc"/>
@@ -163,10 +163,10 @@
             </objects>
             <point key="canvasLocation" x="322" y="378"/>
         </scene>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="V6h-Gk-3P5">
             <objects>
-                <viewController id="5ZU-dB-k7k" sceneMemberID="viewController">
+                <viewController id="5ZU-dB-k7k" customClass="MainVC" customModule="Techie_Toolkit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Wsp-P8-J6v"/>
                         <viewControllerLayoutGuide type="bottom" id="z15-3Z-hEI"/>

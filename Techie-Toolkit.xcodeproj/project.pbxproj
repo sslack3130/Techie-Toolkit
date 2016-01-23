@@ -19,8 +19,22 @@
 		0F82575A1C52ABC100997F2E /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F8257561C52ABC100997F2E /* NotoSans-Regular.ttf */; };
 		0F82575D1C52AD1600997F2E /* TextFieldDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F82575C1C52AD1600997F2E /* TextFieldDesign.swift */; };
 		0F82575F1C52B1A100997F2E /* ViewDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F82575E1C52B1A100997F2E /* ViewDesign.swift */; };
+		0FAD14361C52C84300CEFA86 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAD14351C52C84300CEFA86 /* MainVC.swift */; };
 		79F3F04E6650DCA4E39A686A /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F5FFDAD6303E2F37062D57F /* Pods.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0FAD14311C52C7C000CEFA86 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0F1456361C525D14002FBAC8 /* CONSTANTS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CONSTANTS.swift; sourceTree = "<group>"; };
@@ -37,6 +51,7 @@
 		0F8257561C52ABC100997F2E /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 		0F82575C1C52AD1600997F2E /* TextFieldDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldDesign.swift; sourceTree = "<group>"; };
 		0F82575E1C52B1A100997F2E /* ViewDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewDesign.swift; sourceTree = "<group>"; };
+		0FAD14351C52C84300CEFA86 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		2F5FFDAD6303E2F37062D57F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B1FE17BF4BCC08B34893CA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A0EC2263D659B3F0C4958E3E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,10 +98,10 @@
 		0F4499EA1C525A2C00E53B8B /* Techie-Toolkit */ = {
 			isa = PBXGroup;
 			children = (
+				0FAD14341C52C81E00CEFA86 /* Controller */,
 				0F82575B1C52ACEC00997F2E /* View */,
 				0F8257521C52ABB300997F2E /* Resources */,
 				0F4499EB1C525A2C00E53B8B /* AppDelegate.swift */,
-				0F4499ED1C525A2C00E53B8B /* ViewController.swift */,
 				0F4499EF1C525A2C00E53B8B /* Main.storyboard */,
 				0F4499F21C525A2C00E53B8B /* Assets.xcassets */,
 				0F4499F41C525A2C00E53B8B /* LaunchScreen.storyboard */,
@@ -116,6 +131,15 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		0FAD14341C52C81E00CEFA86 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F4499ED1C525A2C00E53B8B /* ViewController.swift */,
+				0FAD14351C52C84300CEFA86 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		4AFEAA9376AC824E351708C8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +162,7 @@
 				0F4499E61C525A2C00E53B8B /* Resources */,
 				715241AA5634BD8FE9F1618D /* Embed Pods Frameworks */,
 				7D8A1F5E8191ACC70E42DC38 /* Copy Pods Resources */,
+				0FAD14311C52C7C000CEFA86 /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F4499EE1C525A2C00E53B8B /* ViewController.swift in Sources */,
+				0FAD14361C52C84300CEFA86 /* MainVC.swift in Sources */,
 				0F4499EC1C525A2C00E53B8B /* AppDelegate.swift in Sources */,
 				0F1456371C525D14002FBAC8 /* CONSTANTS.swift in Sources */,
 				0F82575D1C52AD1600997F2E /* TextFieldDesign.swift in Sources */,

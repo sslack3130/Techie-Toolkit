@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F27AE4A6C5686E3E6729DF7E58169DC486E2064C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F27AE4A6C5686E3E6729DF7E58169DC486E2064C" : 0,
+    "E82B78FDD5A47F8D646C1792567DEFB4E1658A1A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "1A4D9AFB-F595-4272-AFB7-63093D99B176",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F27AE4A6C5686E3E6729DF7E58169DC486E2064C" : "Techie-Toolkit\/",
+    "E82B78FDD5A47F8D646C1792567DEFB4E1658A1A" : "Techie-Toolkit\/Side-Menu.iOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Techie-Toolkit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Techie-Toolkit.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yalantis\/Side-Menu.iOS.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E82B78FDD5A47F8D646C1792567DEFB4E1658A1A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sslack3130\/Techie-Toolkit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F27AE4A6C5686E3E6729DF7E58169DC486E2064C"
+    }
+  ]
+}
